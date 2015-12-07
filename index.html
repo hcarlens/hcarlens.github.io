@@ -13,7 +13,7 @@
         $('#fullpage').fullpage({
           navigation:true,
           sectionsColor: ['#58433E', '#ffffff', '#BE964A', '#999999'],
-          anchors:['home', 'music', 'contact', 'quotes'],
+          anchors:['home', 'music', 'contact', 'live'],
           menu: '#menu',
           loopHorizontal: false,
           autoScrolling: false
@@ -76,18 +76,16 @@
   </head>
 
   <body>
-  	<!--
+
 <ul id="#menu">
-    <li data-menuanchor="section1" class="active"><a href="#home">Home</a></li>
-    <li data-menuanchor="section4"><a href="#music">Music</a></li>
-    <li data-menuanchor="section3"><a href="#contact">Contact</a></li>
-    <li data-menuanchor="section5"><a href="#videos">Videos</a></li>
-    <li data-menuanchor="section6"><a href="#images">Images</a></li>
-    <li data-menuanchor="section"><a href="#quotes">Quotes</a></li>
+    <li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
+    <li data-menuanchor="music"><a href="#music">Music</a></li>
+    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+    <li data-menuanchor="live"><a href="#live">Live</a></li>
 </ul>
--->
+
   <div id="fullpage">
-    <div class="section" id="section1">
+    <div class="section" id="homeSection">
       <img src="http://www.dieseldrums.com/wp-content/uploads/2015/12/Logonormalplain.png" style="max-width:100%; max-height:60%" />
       <div id="mc_embed_signup">
 <form action="//dieseldrums.us9.list-manage.com/subscribe/post?u=7472a47273d2c76b8058a2828&amp;id=c2838a0cea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -101,7 +99,7 @@
 
 <!--End mc_embed_signup-->
     </div>
-    <div class="section" id="section4">
+    <div class="section" id="musicSection">
       <h1>Ride it</h1>
       <p>Our debut EP</p>
       <p>
@@ -111,10 +109,7 @@
         <br /><br />
       <iframe style="width:80%; max-height: 50%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/56517451&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
     </div>
-    <div class="section" id="section3">
-    	<p><img style="max-height:50%" src="http://www.dieseldrums.com/wp-content/uploads/2014/10/10799742_10152494278407773_1934984218_n.jpg" /></p>
-    	<br />
-    	<br />
+    <div class="section" id="contactSection">
     	<p>Contact us: <a href="mailto:bookings@dieseldrums.com">bookings@dieseldrums.com</a></p>
       <br />
       <br />
@@ -126,8 +121,10 @@
     	<br />
     	<p>Live shows: <a href="https://www.songkick.com/artists/6686589-diesel-drums">SongKick</a></p>
     </div>
-    <div class="section" id="section5">
+    <div class="section" id="liveSection">
       <iframe width="640" height="360" src="https://www.youtube.com/embed/k2tKKsFPYMQ?showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <br />
+      <br />
       <p><i>"That doesn't sound at all bad"</i> - Sound Guy</p>
       <br />
       <br />
