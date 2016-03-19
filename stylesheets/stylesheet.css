@@ -2,7 +2,7 @@
   box-sizing: border-box; }
 
 body {
-  padding: 0;
+  padding: 0;g
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -57,7 +57,7 @@ a {
   color: #fff;
   text-align: center;
   background-color: #2E2220;
-  background-image: linear-gradient(120deg, #2E2220, #453835); }
+  background-image: linear-gradient(120deg, #2E2220, #64523C); }
 
 @media screen and (min-width: 64em) {
   .page-header {
