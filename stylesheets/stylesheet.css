@@ -59,9 +59,9 @@ a {
   background-color: #50403D;
   background-image: linear-gradient(120deg, #50403D, #50403D); }
   
-  .page-header p {
-  	-webkit-margin-before: 0.2em;
-	-webkit-margin-after: 0.2em;
+.page-header p {
+  	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
   }
 
 @media screen and (min-width: 64em) {
